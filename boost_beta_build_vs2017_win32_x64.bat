@@ -24,7 +24,7 @@ ECHO ########## -BUILDING BOOST LIBRARIES 64bit **RUNTIME-LINK = ALL**- ########
 ECHO ###############################################################################
 if exist .\stage_x64 rmdir \stage_x64 /s/q
 b2.exe --toolset=msvc-14.1 --clean-all
-b2.exe --toolset=msvc-14.1 architecture=x64 address-model=64 --stagedir=".\stage_x64" threading=multi --build-type=complete stage
+b2.exe --toolset=msvc-14.1 architecture=x86 address-model=64 --stagedir=".\stage_x64" threading=multi --build-type=complete stage
 if not exist .\stage md .\stage
 if not exist ..\bin\x64 md ..\bin\x64
 move /y .\stage_x64\lib\*.* ..\bin\x64
