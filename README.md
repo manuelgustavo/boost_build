@@ -16,7 +16,7 @@ Builds boost with all runtime link types for both 32 and 64 bit architectures.
 
 2. **Using Visual Studio 2017's Developer Command Prompt** (found in "Windows' Start"\All Programs\Visual Studio 2017\Visual Studio Tools), go to the boost root directory (eg. C:\boost_1_63_0) and call-execute to bat provided in this repo boost_build_vs2017_win32_x64.bat.
 
-Note: Go to 2 Cofees the process take a long time.
+Note: Go for 2 Coffees... the process takes a long time.
 It will output the .DLLs and .LIBs up one level from the current path (eg. d:\sdk\bin...) at "bin\x86" (for 32 bit) and "bin\x64" (for 64 bit).
 
 ## boost_beta_build_vs2017_win32_x64.bat
