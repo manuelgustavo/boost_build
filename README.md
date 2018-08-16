@@ -17,7 +17,7 @@ Builds boost with all runtime link types for both 32 and 64 bit architectures.
 2. **Using Visual Studio 2017's Developer Command Prompt** (found in "Windows' Start"\All Programs\Visual Studio 2017\Visual Studio Tools), go to the boost root directory (eg. C:\boost_1_68_0) and call-execute to bat provided in this repo build_boost_vs2017_win32_x64.bat.
 
 eg
-```shell
+```bat
 C:\>cd boost_1_68_0
 C:\boost_1_68_0>build_boost_vs2017_win32_x64.bat
 ```
